@@ -8,12 +8,12 @@ function App() {
         <div className="center">
             <div className="menu">
               <div className="logo">
-                <h3><a href="">SILVEIRA, H.</a></h3>
+                <h3><a href="">Lucas, H.</a></h3>
               </div>
               <div className="item-menu">
-                <a href="#">Item1</a>
-                <a href="#">Item2</a>
-                <a href="#">Item3</a>
+                <a href="#">About me</a>
+                <a href="#">Contact</a>
+                <a href="#">Projects</a>
               </div>
             </div>
         </div>
@@ -21,9 +21,11 @@ function App() {
 
             <div className="content">
               <div className="container">
-                <h3>My Page</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lectus non erat pulvinar rutrum. Sed at arcu in nisi congue dignissim. 
-                  Sed non purus vel velit finibus tempor ac vel velit. Donec vel velit a neque tristique convallis.</p>
+                <h3>######</h3>
+                <p>Welcome to my page!!</p>
+                <p>My name is Herbert Lucas. I created this website with the intention of using it as a portfolio, 
+                  to post my personal projects, and share things about myself. I am 21 years old, a technology enthusiast, 
+                  and a student of Information Systems at the Federal University of Rondonópolis (UFR).</p>
 
                     <div className="social-links">
                       <a href="https://github.com/hbtlucas" target="_blank" rel="noopener noreferrer">
@@ -52,6 +54,13 @@ function App() {
               </div>
             </div>
 
+
+              <div className="box-container">
+                  <div className="box">
+                    <h3><a href=""> Box 1 </a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut lectus non erat pulvinar rutrum.</p>
+                </div>
+              </div>
             
       </div>
     </div>

@@ -65,12 +65,29 @@ body {
   color: rgb(160, 160, 200);
 }
 
+.box-container {
+  display: flex;
+  padding-left: 30%;
+  padding-top: 1%;
+}
+
 .box {
   max-width: 600px;
-  background-color: #d0e8ff; /* Azul claro */
+  background-color: #a3a3a3; 
   padding: 20px;
-  border-radius: 10px; /* Borda arredondada */
+  border-radius: 10px; 
+  
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+.box a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.box h3 {
+  color: #333333; 
+  font-size: 24px;
 }
 
 .social-links {
