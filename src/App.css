@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #222222;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.main{
+  padding: 40px 0;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu a{
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+}
+
+.item-menu a{
+  color: rgb(230, 230, 230);
+  padding: 10px;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+.menu a:hover{
+  color: #ffffff;
+}
+
+.menu h3{
+  color:rgb(230, 230, 230);
+}
+
+.content {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container h3{
+  color: rgb(230, 230, 230);
+  font-size: 30px;
+}
+
+.container p{
+  padding-top: 10px;
+  color: rgb(160, 160, 200);
+}
+
+.box {
+  max-width: 600px;
+  background-color: #d0e8ff; /* Azul claro */
+  padding: 20px;
+  border-radius: 10px; /* Borda arredondada */
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #ffffff; /* Cor dos ícones */
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn azul, você pode trocar para outras cores */
 }
