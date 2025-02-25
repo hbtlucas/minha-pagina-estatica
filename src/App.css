@@ -67,8 +67,7 @@ body {
 
 .box-container {
   display: flex;
-  padding-left: 30%;
-  padding-top: 1%;
+  padding-top: 5%;
 }
 
 .box {
@@ -76,7 +75,6 @@ body {
   background-color: #a3a3a3; 
   padding: 20px;
   border-radius: 10px; 
-  
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
 }
 
@@ -88,6 +86,11 @@ body {
 .box h3 {
   color: #333333; 
   font-size: 24px;
+}
+
+.box p {
+  color: #313131;
+  font-size: 14px;
 }
 
 .social-links {
@@ -103,4 +106,31 @@ body {
 
 .social-links a:hover {
   color: #0077b5; /* LinkedIn azul, você pode trocar para outras cores */
+}
+
+.lists{
+  margin-top: 20px;
+}
+
+.lists h3{
+  color: rgb(230, 230, 230);
+  font-size: 24px;
+}
+
+.lists li{
+  color: rgb(230, 230, 230);
+  padding: 8px;
+}
+
+.lists p{
+  color: rgb(160, 160, 200);
+  padding-top: 0px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+
 }
