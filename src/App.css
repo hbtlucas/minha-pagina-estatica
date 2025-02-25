@@ -134,3 +134,95 @@ body {
   align-items: center;
 
 }
+
+.playlists {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.playlists h3{
+  color: rgb(230, 230, 230);
+  font-size: 24px;
+}
+
+.imageplay{
+  margin: 10px;
+}
+
+.playlists a{
+  color: rgb(255, 255, 255);
+  padding-top: 0px;
+  text-decoration: dashed;
+}
+
+.playlists a:hover{
+  color: #6e6e6e;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .perfil {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .box-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu {
+    margin-top: 0;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    gap: 5px;
+    align-items: center; /* Centraliza os itens */
+  }
+
+  .menu .home-link {
+    font-size: 15px;
+  }
+
+  .menu a {
+    padding: 10px; /* Reduz o padding para economizar espaço */
+    width: 100%; /* Ocupa toda a largura para parecer uma lista */
+    text-align: center; /* Centraliza o texto */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .perfil img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .box {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .social-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+}

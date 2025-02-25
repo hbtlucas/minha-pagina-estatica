@@ -14,7 +14,7 @@ function App() {
           <div className="center">
             <div className="menu">
               <div className="logo">
-                <h3><Link to="/">Home</Link></h3>
+                <h3><Link to="/" className="home-link">Home</Link></h3>
               </div>
               <div className="item-menu">
                 <Link to="/about">About me</Link>
