@@ -18,7 +18,7 @@ export default function Projects () {
 
                 <div className="box-container">
                     <div className="box">
-                        <h3><a>CustomTrack</a></h3>
+                        <h3>CustomTrack</h3>
                         <p>The application aims to serve as a Control and Production Manager. It can be adapted for any company that needs a management system.</p>
                         <p>Oct 24, 2023</p>
                     </div>
@@ -26,7 +26,7 @@ export default function Projects () {
 
                 <div className="box-container">
                     <div className="box">
-                        <h3><a>scanportdnsservices-and-domains</a></h3>
+                        <h3>scanportdnsservices-and-domains</h3>
                         <p>Cybersecurity Tools: Explore network security, including port scanning and subdomain recognition.</p>
                         <p>Jun 24, 2024</p>
                     </div>
